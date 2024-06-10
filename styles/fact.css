@@ -1,0 +1,45 @@
+.cat-fact-img {
+  background-color: transparent;
+  position: absolute;
+  top: 4720px;
+  left: 365px;
+  z-index: 2;
+}
+
+.fact-section {
+  background-color: #e89058;
+  height: 1350px;
+  position: relative;
+  z-index: 1;
+}
+
+.fact-container {
+  background-color: #e89058;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 540px;
+  gap: 100px;
+}
+
+.fact-div {
+  background-color: #e89058;
+  height: 300px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 0px;
+}
+
+.fact-div p {
+  font-size: 26px;
+  font-weight: 500;
+  padding-top: 20px;
+  background-color: #e89058;
+  width: 40ch;
+}
+
+.fact-header {
+  background-color: #ffbd94;
+  padding: 6px 10px;
+  border-radius: 10px;
+  width: 120px;
+}

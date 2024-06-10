@@ -1,0 +1,100 @@
+.reviews-section {
+  text-align: center;
+  padding-bottom: 450px;
+  padding-top: 30px;
+  z-index: 1;
+  position: relative;
+}
+
+.reviews-cont {
+  display: flex;
+  flex-direction: row;
+}
+
+.review-text {
+  font-size: 70px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+}
+
+/*----------------- LEFT SIDE -----------------  */
+.left-review {
+  flex: 7;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*----------------- MIDDLE SIDE -----------------  */
+.middle {
+  flex: 6;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle img {
+  width: 550px;
+}
+
+/*----------------- RIGHT SIDE -----------------  */
+.right-review {
+  flex: 7;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*----------------- PROFILE -----------------  */
+.profile-cont {
+  background-color: #ffc17a;
+  height: 325px;
+  width: 325px;
+  border-radius: 10%;
+  text-align: start;
+  padding: 20px;
+}
+
+.profile-cont > * p {
+  background-color: #ffc17a;
+}
+
+.profile-img {
+  display: inline-block;
+  background-color: #ffc17a;
+}
+
+.profile-img img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-details-container {
+  display: inline-block;
+  background-color: #ffc17a;
+  margin-bottom: 12px;
+  margin-left: 6px;
+}
+
+.profile-name {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-location {
+}
+
+.profile-desc {
+  margin-top: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}

@@ -1,0 +1,24 @@
+.landing {
+  padding: 160px 110px;
+}
+
+.landing p {
+  max-width: 40ch;
+  margin: 50px 0px;
+  font-size: 24px;
+}
+
+.welcome-cat {
+  top: 90px;
+  right: 100px;
+  position: absolute;
+}
+
+@media (max-width: 950px) {
+  .welcome-cat {
+    top: 90px;
+    right: 100px;
+    position: absolute;
+    height: 400px;
+  }
+}
